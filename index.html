@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <title>Faiza Mutesi - Software Developer</title>
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Faiza M.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓 Theme</button>
+        </div>
+    </nav>
+
+     <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+               <li><a href="Resume (Faiza Mutesi).pdf" download="Resume (Faiza Mutesi).pdf">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles"></div>
+        <div class="hero-content">
+            <h1>Faiza Mutesi</h1>
+            <div class="typing-text" id="typing-text"></div>
+            <p style="color: var(--gray); font-size: 1.1rem; margin-bottom: 2rem;">
+                Detail-oriented software developer who turns ideas into interactive experiences—one line of code at a time.
+                I design and develop smart, and user-friendly software solutions for real-world projects, 
+                with a splash of creativity and a lot of coffee! 
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">My technical expertise spans multiple programming languages, frameworks, and tools</p>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skill-category fade-in">
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                    <span>HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>React.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Bootstrap</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                    <span>Python (Django/Flask)</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>PHP (Laravel, SpringBoot)</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Java</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Database & Tools</h3>
+                <div class="skill-item">
+                    <span>MySQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Firebase</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Salesforce</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Google Suite</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>GitHub</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>Languages & Soft Skills</h3>
+                <div class="skill-item">
+                    <span>English</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Kinyarwanda</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="100"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Swahili</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Communication</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">My journey through various roles in technology and business</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item slide-in-right">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Full Stack developer / App Deployment Specialist </div>
+                    <div class="company">Invisible Technologies | San Francisco, CA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">September 2024 – January 2025</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Ensured data integrity through systematic verification processes</li>
+                            <li>Analyze user requirements and translate them into technical specifications</li>
+                            <li>Develop front-end interfaces and back-end logic.</li>
+                            <li>Collaborate with cross-functional teams (designers, testers, DevOps) </li>
+                            <li>Work with APIs and web services to connect the front-end with back-end systems.</li>
+                            <li>Debug and resolve software defects and performance issues</li>
+                            <li>Configured and managed complex information systems with strict security protocols</li>
+                            <li>Maintained accurate documentation across multiple platforms and applications</li>
+                            <li>Implemented systematic quality checks to identify and rectify errors</li>
+                            <li>Ensured compliance with Google & Apple policies and CCPA data protection laws</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item slide-in-left">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Front End developer </div>
+                    <div class="company">Invisible Technologies | San Francisco, CA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">November 2022 – January 2025</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Create responsive and interactive user interfaces using HTML, CSS, and JavaScript.</li>
+                            <li>Develop features based on UI/UX design mockups and wireframes.</li>
+                            <li>Optimize component-based architecture and maintain reusable code.</li>
+                            <li>Translate UI/UX designs into functional, visually appealing interfaces.</li>
+                            <li>Ensure consistency in layout, colors, fonts, and branding across pages.</li>
+                            <li>Ensure applications work seamlessly across mobile, tablet, and desktop devices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item slide-in-right">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Medical Interpreter</div>
+                    <div class="company">GLOBO Language Solutions | Philadelphia, PA</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">November 2022 – November 2023</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Facilitated verbal communication between healthcare practitioners and patients</li>
+                            <li>Provided accurate translation of medical information on audio/video calls</li>
+                            <li>Translated medical terms from English to Kinyarwanda, and Swahili.</li>
+                            <li>Simplified complex medical jargon for better patient understanding</li>
+                            <li>Maintained strict confidentiality protocols</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item slide-in-left">
+                <div class="timeline-content">
+                    <div class="timeline-date"></div>
+                    <div class="job-title">Sales and Marketing Officer</div>
+                    <div class="company">Touch Media Design Ltd | Kigali, Rwanda</div>
+                    <div class="period" style="color: var(--accent); font-weight: 600; margin-bottom: 1rem;">March 2020 – July 2021</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Offered strategic advice to build brand awareness and capture target markets</li>
+                            <li>Identified new opportunities and customers through market monitoring</li>
+                            <li>Developed and managed successful marketing sales pipelines</li>
+                            <li>Met deadlines consistently while working under pressure</li>
+                            <li>Handled briefs, proposals, and contracts effectively</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section HTML -->
+<section id="projects">
+    <div class="section-header fade-in">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">A showcase of my development work and creative solutions</p>
+    </div>
+
+    <div class="projects-container">
+       
+
+        <div class="project-card fade-in">
+            <div class="project-image">
+               <img src="images/task-management.PNG" alt="Task Management App" onclick="openModal(this)">
+                
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Task Management System</h3>
+                <p class="project-description">
+                    A collaborative task management application with team features, deadline tracking, 
+                    and progress visualization. Includes drag-and-drop functionality and real-time updates.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in">
+            <div class="project-image">
+                <img src="images\data-ai.PNG" alt="Data Analytics Platform" onclick="openModal(this)">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Data Analytics Platform</h3>
+                <p class="project-description">
+                    A powerful data visualization platform that transforms complex datasets into 
+                    interactive charts and insights. Features custom reporting and export capabilities.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Express</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in">
+            <div class="project-image">
+                <img src="images\inventory.PNG" alt="POS System" onclick="openModal(this)">
+            </div>
+            
+            <div class="project-content">
+                <h3 class="project-title">Inventory Management System</h3>
+                <p class="project-description">
+                   A centralized solution for tracking and managing company inventory, incorporating transaction history, account management, and financial planning tools. 
+                   Features a responsive design optimized for all devices
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">API Integration</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in">
+            <div class="project-image">
+                <img src="images/elearning.PNG" alt="Learning Management System" onclick="openModal(this)">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Learning Management System</h3>
+                <p class="project-description">
+                    An edutainment platform for children with learning disabilities, featuring assignments, 
+                    progress tracking, and interactive quizzes. Built for scalability and performance.
+                </p>
+                <div class="project-tech">
+                   <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="project-card fade-in">
+            <div class="project-image">
+                <img src="images/fitness.PNG" alt="Fitness Tracker" onclick="openModal(this)">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Health Tracking System</h3>
+                <p class="project-description">
+                    A health tracker that helps individuals on their fitness journey.
+                    It helps them to set nutirition goals, it tracks menstrual cycles, and provides insights to improve their overall health.
+                </p>
+                <div class="project-tech">
+                   <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in">
+            <div class="project-image">
+                <img src="images/livestock.PNG" alt="Livestock Health Advisor" onclick="openModal(this)">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Livestock Health Advisor</h3>
+                <p class="project-description">
+                    A traditional AI-powered solution designed to help farmers and veterinarians diagnose and manage livestock diseases efficiently, 
+                    improving animal health and reducing losses in agriculture.
+                </p>
+                <div class="project-tech">
+                   <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Ready to collaborate on your next project or discuss opportunities</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <h3 style="color: var(--primary); margin-bottom: 2rem;">Get In Touch</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><img src="images\icons8-email-30.png"></div>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:hmanita24@gmail.com" style="color: var(--primary);">hmanita24@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><img src="images\icons8-phone-48.png"></div>
+                    <div>
+                        <strong>Phone</strong><br>
+                        <a href="tel:+250786061493" style="color: var(--primary);">+250 786 061 493</a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Faiza Mutesi. All rights reserved. | Built with passion for technology</p>
+    </footer>
+
+         <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <img id="modalImage" class="modal-image" src="" alt="">
+        </div>
+    </div>
+
+    
+
+   </body>
+   </html>
