@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing Animation
     const typingText = document.getElementById('typing-text');
     const texts = [
-        "Full-Stack Developer",
+        "Full Stack Developer",
         "Tech Enthusiast"
     ];
     
@@ -429,4 +429,5 @@ window.closeMobileMenu = function() {
     mobileMenu.classList.remove('active');
     overlay.classList.remove('active');
     document.body.style.overflow = '';
+
 };
